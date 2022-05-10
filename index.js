@@ -24,10 +24,6 @@ module.exports.isAnyResultTrue = function isAnyResultTrue(...fns) {
   };
 };
 
-module.exports.objectValues = function objectValues(obj) {
-  return Object.values(obj);
-};
-
 module.exports.startsWith = function startsWith(match) {
   return function (value) {
     return value.startsWith(match);
@@ -66,8 +62,4 @@ module.exports.keyOf = function keyOf(index, fn) {
 
     return fn(value[index]);
   };
-};
-
-module.exports.toUtfString = function toUtfString(value) {
-  return value.toString('utf8');
 };
