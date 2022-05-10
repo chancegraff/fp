@@ -1,0 +1,20 @@
+{
+  "name": "fp",
+  "version": "1.0.0",
+  "description": "Functional programming helpers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chancegraff/fp.git"
+  },
+  "keywords": [
+    "functional",
+    "programming"
+  ],
+  "author": "Chance Graff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chancegraff/fp/issues"
+  },
+  "homepage": "https://github.com/chancegraff/fp#readme"
+}
