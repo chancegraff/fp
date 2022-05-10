@@ -1,5 +1,5 @@
 {
-  "name": "fp",
+  "name": "@chancegraff/fp",
   "version": "1.0.0",
   "description": "Functional programming helpers",
   "main": "index.js",
